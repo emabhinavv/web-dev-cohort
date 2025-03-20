@@ -53,6 +53,23 @@ button:hover {
     position: fixed;
     top: 20px;
     right: 20px;
-    font-size: 15px;
-    padding: 5px 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+#githubBtn img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+#githubBtn:hover {
+    background-color: transparent;
 }
